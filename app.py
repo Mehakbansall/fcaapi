@@ -5,7 +5,7 @@ app = Flask(__name__)
 api = Api(app)
 
 
-@api.route('/hello')
+@api.route('/c')
 class HelloWorld(Resource):
     def get(self):
         return {'hello': 'world'}
